@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Estacionamento</title>
+</head>
+
+<body>
+    <h4>Go Parking - Controle de Estacionamento</h4>
+    <hr>
+    <input type="text" name="" id="nome" placeholder="Informe o nome do veículo: " autocomplete="off">
+    <input type="text" name="" id="placa" placeholder="Informe a Placa do veículo: " autocomplete="off">
+    <button id="cadastrar">Cadastrar</button> 
+    
+
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Ações</th>
+        </thead>
+        <tbody id="patio"></tbody>
+    </table>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
